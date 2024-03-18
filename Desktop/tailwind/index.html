@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>27-dars -countries</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  
+  <!-- HEADER START  -->
+  <header class="py-6 shadow-sm bg-white dark:bg-dark-blue transition-colors">
+    <div class="container max-w-7xl mx-auto">
+      <div class="flex justify-between items-center">
+        <a class='serif text-2xl font-extrabold text-black dark:text-white' href="./index.html">
+          Where in the world?
+        </a>
+        
+        <button class=' theme-btn relative serif text-base text-black 
+        before:content-[url("../images/moon-dark.svg")] before:absolute 
+        before:top-[2px] before:right-[110%] dark:text-white dark:before:content-[url("../images/moon-light.svg")]' type="button">
+        Dark Mode
+      </button>
+    </div>
+  </div>
+</header>
+<!-- HEADER END -->
+
+
+
+<!-- MAIN START  -->
+<main class="bg-body dark:bg-body-dark py-12">
+  <section class="mb-12">
+    <div class="container max-w-7xl mx-auto">
+      <div class="flex justify-between items-center">
+        <search>
+          <form class='w-full md:min-w-[480px]' action='https://echo.htmlacademy.ru' method='GET'>
+            <input class='w-full py-5 ps-[74px] placeholder:text-sm placeholder:text-gray dark:placeholder:text-white bg-[url(../images/search-icon.svg)] dark:bg-[url(../images/search-light.svg)] bg-no-repeat bg-[32px_center] rounded-[5px] dark:bg-dark-blue' type='search' name='search' placeholder='Search for a country...'>
+          </form>
+        </search>
+        
+        
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <select class="py-5 px-6 bg-white rounded-[5px] dark:bg-dark-blue dark:text-white" >
+            <option value="">Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="Amerika">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container max-w-7xl mx-auto">
+      <ul class="flex justify-between flex-wrap">
+        <li class='mb-14 bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-germany.jpg" width="264" height="160" alt="germany">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+              Germany
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+
+        <li class=' mb-14 bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-usa.jpg" width="264" height="160" alt="usa">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+              United States of America
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+
+        <li class='mb-14 bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-brazil.jpg" width="264" height="160" alt="brazil">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+              Brazil
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+
+        <li class='mb-14 bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-island.jpg" width="264" height="160" alt="island">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+            Island
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+        
+        <li class='bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-afghanistan.jpg" width="264" height="160" alt="afganistan">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+              Afghanistan
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+        <li class='bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-aland-island.jpg" width="264" height="160" alt="a island">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+            Aland Island
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+        <li class='bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-albania.jpg" width="264" height="160" alt="albania">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+              Albania
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+        <li class='bg-white dark:bg-dark-blue rounded-[5px] shadow-sm overflow-hidden'>
+          <img src="./images/flag-algaria.jpg" width="264" height="160" alt="algeria">
+          
+          <div class="pt-6 pl-6 pb-[46px]">
+            <h3 class="serif text-lg font-extrabold mb-4 text-black dark:text-white">
+              Algeria
+            </h3>
+            
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Population:</strong> 81,770,900</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Region:</strong> Europe</p>
+            <p class="serif text-sm text-black font-light dark:text-white mb-2"><strong class="font-semibold">Capital:</strong> Berlin</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+<!-- MAIN END -->
+
+
+<script src="./js/spaghetti.js"></script>
+</body>
+</html>
