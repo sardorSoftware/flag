@@ -21,7 +21,7 @@ const About = () => {
 		illo?
 		</p>
 		
-		<a download='' href={CV} className='button button__flex'>
+<a download='' href={CV} className='button button__flex'>
 		Download CV
 		<svg
 		className='button__icon'
